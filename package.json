@@ -1,0 +1,24 @@
+{
+  "name": "json64",
+  "version": "0.0.1",
+  "description": "Web-safe and binary formats for exchanging JSON",
+  "main": "lib/main.js",
+  "bin": { "json64": "./bin/json64" },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manger/json64.git"
+  },
+  "author": "James Manger",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
+}
