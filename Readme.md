@@ -31,6 +31,7 @@ is replaced with the UTF-8 decoding of the base64url-decoding of the segment.
 All segments are then concatenated to create the output string.
 
 `JSON.web64v(value)` is a shortcut for `JSON.web64(JSON.stringify(value))`.
+
 `JSON.deweb64v(text)` is a shortcut for `JSON.parse(JSON.deweb64(text))`.
 
 ## Bin64
@@ -56,6 +57,7 @@ as `32` (hex); 500 is encoded as `F4 03` (hex).
 `JSON.debin64(buf)` reverses the transformation of `JSON.bin64(text)`.
 
 `JSON.bin64v(value)` is a shortcut for `JSON.bin64(JSON.stringify(value))`.
+
 `JSON.debin64v(buf)` is a shortcut for `JSON.parse(JSON.debin64(buf))`.
 
 ## Example
