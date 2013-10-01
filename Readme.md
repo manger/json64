@@ -51,7 +51,7 @@ concatenation of the length-prefixed byte arrays in order.
 Each byte in a VARINT, except the last, has the most significant bit (msb) set.
 The lower 7 bits of each byte store the binary representation of the number in
 groups of 7 bits, least significant group first. For example, 50 is encoded
-as `32` (hex); 500 is encoded as `F4 02` (hex).
+as `32` (hex); 500 is encoded as `F4 03` (hex).
 
 `JSON.debin64(buf)` reverses the transformation of `JSON.bin64(text)`.
 
